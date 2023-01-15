@@ -96,10 +96,72 @@ header {
   color: #ff900e;
 }
 .header-hero {
-  margin: 100px 0;
+  margin: 100px 0 0 0;
 }
 .header-hero .hero-title {
   width: 862px;
   margin: 0 auto;
   text-align: center;
+}
+
+/* Features Section Design */
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 87px;
+  align-items: center;
+}
+.features-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+.features-right {
+  max-width: 537px;
+  margin-left: 73px;
+}
+.features-details {
+  display: flex;
+  margin-top: 87px;
+}
+.features-details-left {
+  flex: 1;
+  padding-right: 180px;
+}
+.features-details-left h3 {
+  border-left: 5px solid #ff900e;
+  max-width: 468px;
+  padding-left: 21px;
+}
+.features-details-left-fetures {
+  display: grid;
+  gap: 25px;
+}
+.fetures-details {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px 75px 30px 30px;
+}
+.features-details-right {
+  flex: 1;
+  margin-left: 0px;
+}
+.features-details-image {
+  position: relative;
+}
+.experience {
+  position: absolute;
+  width: 258px;
+  border-radius: 8px;
+  padding: 45px 42px;
+  left: -100px;
+  bottom: -80px;
+  background: #ff900e;
+}
+.experience h2 {
+  color: #fff;
+}
+.experience p {
+  color: #fff;
 }
