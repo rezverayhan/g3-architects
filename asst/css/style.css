@@ -1,0 +1,31 @@
+/* ! Google Font Import  */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/** Default Style **/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+h1,
+h2 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #727272;
+}
