@@ -1,0 +1,50 @@
+/* ! Mobile Device CSS design  */
+@media (max-width: 576px) {
+  h1,
+  h2 {
+    font-size: 44px;
+    line-height: 45px;
+  }
+  h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* Header Design  */
+  .header-top {
+    /* display: none; */
+  }
+  .header-top .logo {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 53px;
+  }
+  .header-top nav {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .mobile-menu img {
+    width: 40px;
+    height: 40px;
+  }
+  .header-hero .hero-title {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Features Section Design */
+  .features {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-columns: reves
+    margin-top: 87px;
+    align-items: center;
+  }
+}

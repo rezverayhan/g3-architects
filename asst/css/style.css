@@ -95,6 +95,9 @@ header {
 .header-top nav ul li a:hover {
   color: #ff900e;
 }
+.mobile-menu {
+  display: none;
+}
 .header-hero {
   margin: 100px 0 0 0;
 }
