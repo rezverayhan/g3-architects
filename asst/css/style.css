@@ -168,7 +168,7 @@ header {
 
 /* Facts Style  */
 .facts {
-  margin-top: 87px;
+  margin: 87px 0px;
 }
 .facts p {
   max-width: 542px;
@@ -176,14 +176,53 @@ header {
 .facts-point-box {
   display: flex;
   justify-content: space-around;
+  margin: 87px 0;
 }
 .box {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 8px;
   border: 1px solid #ff900e;
-  padding: 45px;
+  width: 241.83px;
+  height: 241.83px;
+}
+.box:hover {
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border: 1px solid #fff;
 }
 .box img {
   width: 45px;
   height: 45px;
+}
+
+/* Sponspors Design */
+.sponspors {
+  margin: 120px 0;
+  text-align: center;
+}
+.sponspors-image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sponspors-image img {
+  width: 160px;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+.sponspors-image img:hover {
+  filter: grayscale(0%);
+}
+
+/* Footer Design  */
+.footer {
+  background-color: rgba(255, 144, 14, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 216px;
 }
