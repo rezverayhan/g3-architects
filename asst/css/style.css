@@ -165,3 +165,25 @@ header {
 .experience p {
   color: #fff;
 }
+
+/* Facts Style  */
+.facts {
+  margin-top: 87px;
+}
+.facts p {
+  max-width: 542px;
+}
+.facts-point-box {
+  display: flex;
+  justify-content: space-around;
+}
+.box {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 45px;
+}
+.box img {
+  width: 45px;
+  height: 45px;
+}
